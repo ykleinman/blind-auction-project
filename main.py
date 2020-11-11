@@ -12,7 +12,7 @@ while not game_over:
     name = input("What is your name? ")
 
     #STEP-3: Ask for bid price 
-    bid_price = int(input("What is your bid? "))
+    bid_price = int(input("What is your bid? $"))
 
     def activate_bidder(user_name, bid):
         #STEP-4: Add name and bid into a dictionary as the key and value. 
